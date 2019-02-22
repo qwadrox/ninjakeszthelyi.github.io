@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          Ninja Keszthelyi
+// @name          facebook
 // @namespace     *://tig.kgk.uni-obuda.hu/*
 // @description   Keszthelyi egy Szovjet Ninja
 // @include       *://tig.kgk.uni-obuda.hu/*
@@ -42,28 +42,27 @@ var valasz = valaszok[kerdesIndex];
 
 if (valasz1 == valasz)
 {
-    var element = document.getElementsByClassName("kvalasz1")[0];
-    element.setAttribute("style", "cursor: default");
+    document.getElementsByClassName("kvalasz1")[0].setAttribute("style", "cursor: default");
+    
     //document.getElementsByClassName("kvalasz1")[0].innerText = valasz1 + ".";
 }
 else if (valasz2 == valasz)
 {
-    var element1 = document.getElementsByClassName("kvalasz2")[0];
-    element1.setAttribute("style", "cursor: default");
+    document.getElementsByClassName("kvalasz2")[0].setAttribute("style", "cursor: default");
+    
     //document.getElementsByClassName("kvalasz2")[0].innerText = valasz2 + ".";
 }
 else if (valasz3 == valasz)
 {
-    var element2 = document.getElementsByClassName("kvalasz3")[0];
-    element2.setAttribute("style", "cursor: default");
+    document.getElementsByClassName("kvalasz3")[0].setAttribute("style", "cursor: default");
+   
 
     //document.getElementsByClassName("kvalasz3")[0].innerText = valasz3 + ".";
 }
 else if (valasz4 == valasz)
 {
-    var element3 = document.getElementsByClassName("kvalasz4")[0];
-    element3.setAttribute("style", "cursor: default");
-
+    document.getElementsByClassName("kvalasz4")[0].setAttribute("style", "cursor: default");
+    
     //document.getElementsByClassName("kvalasz4")[0].innerText = valasz4 + ".";
 }
 }
