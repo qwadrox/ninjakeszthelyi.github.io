@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          sznk
+// @name          Facebook
 // @namespace     *://tig.kgk.uni-obuda.hu/*
 // @description   Keszthelyi egy Szovjet Ninja
 // @include       *://tig.kgk.uni-obuda.hu/*
